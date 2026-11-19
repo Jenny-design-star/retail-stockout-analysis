@@ -1,0 +1,27 @@
+# Local environment and generated heavy artifacts
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mplcache/
+data/
+analysis/data/
+analysis/models/
+models/
+logs/
+*.duckdb
+*.duckdb.*
+*.joblib
+*.parquet
+*.csv.gz
+*.zip
+llvm-openmp.tar.bz2
+.DS_Store
+# Personal application material belongs outside the public repository
+*简历*
+*证件照*
+*.docx

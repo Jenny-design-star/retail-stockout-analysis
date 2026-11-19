@@ -1,0 +1,5 @@
+{
+  "source": "https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-15.0.5-h7cfbb63_0.tar.bz2",
+  "package": "osx-arm64/llvm-openmp-15.0.5-h7cfbb63_0.tar.bz2",
+  "sha256": "df8d545338b3a895d5d010aa1d672d484006b4f3f406ff5146b18f51f3acd0ea"
+}

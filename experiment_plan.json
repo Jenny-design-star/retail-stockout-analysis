@@ -1,0 +1,25 @@
+{
+  "source_commit": "a1419c6aabea568a1e6e6ee9faec454791c73283",
+  "target": "next day >2 OOS hours in 06:00-22:00",
+  "decision_time": "after all hours of day D, including hour 23, have been observed",
+  "scope": "all 50,000 series; original 5 rolling folds and primary model/baseline comparison; own matched-budget allocation comparison",
+  "test_label_dates": [
+    "2024-06-26",
+    "2024-07-02"
+  ],
+  "capacity_scenarios_per_store": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "primary_capacity_scenario": 5,
+  "allocation_policies": [
+    "global_matched",
+    "per_store_top_n",
+    "one_per_store_then_global"
+  ],
+  "selection": "original rolling-fold mean PR-AUC; capacity scenarios fixed before custom policy evaluation",
+  "bootstrap": "1000 store-cluster paired draws; fixed policy lists; uncertainty across stores, not future weeks",
+  "business_claim_boundary": "No causal claims about prevented stockouts, revenue or actual staffing capacity."
+}
