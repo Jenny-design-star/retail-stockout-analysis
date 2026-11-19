@@ -1,0 +1,78 @@
+feature,mean_abs_shap,role,group
+prod_oos_rate,0.3715996198875973,response trigger,entity
+oos_hours_late_night,0.2805038943243487,response trigger,intraday
+ended_day_oos,0.1520346470939077,response trigger,intraday
+third_category_id,0.14307409464596044,descriptive,entity
+avg_temperature,0.09498504059727658,descriptive,daily
+discount,0.06775960935982152,actionable,daily
+day_of_week,0.062602653956367,descriptive,calendar
+sale_amount,0.056632406875746756,response trigger,daily
+hist_oos_day_share,0.038736574397127396,response trigger,history
+sales_mean_7d,0.03845622943028409,response trigger,daily
+holiday_tomorrow,0.03349243891785476,descriptive,calendar
+oos_hours_lag1,0.03183432220023422,response trigger,daily
+prod_oos_rate_mean_7d,0.028379732433469883,response trigger,entity
+oos_days_14d,0.027775949288819025,response trigger,daily
+second_category_id,0.026883799426899627,descriptive,entity
+demand_est_mean_7d,0.02562069238349877,response trigger,demand
+oos_hours_last3,0.025008455666489522,response trigger,intraday
+hist_oos_hours_mean,0.024824932915368622,response trigger,history
+sales_std_14d,0.024622123590103125,response trigger,daily
+oos_hours_mean_14d,0.024185911321190183,response trigger,daily
+precpt,0.023300721830392734,descriptive,daily
+activity_flag,0.023216191576520127,actionable,daily
+sales_per_available_hour,0.022815118774571232,response trigger,daily
+oos_hours,0.022390751643142928,response trigger,daily
+wk_sales_change_pct,0.021666103545527834,response trigger,weekly
+store_oos_rate,0.020764151687952072,response trigger,entity
+cat_sales_trend,0.020601384690899772,response trigger,category
+store_cat2_oos_rate,0.02048832744684201,response trigger,entity
+cat_n_products,0.020454234130673907,descriptive,category
+sale_amount_lag1,0.01911102678717751,response trigger,daily
+cat_share_affected,0.017538722427853263,response trigger,category
+sales_trend_7v14,0.017313546643804575,response trigger,daily
+cat_sales,0.01642376915008265,response trigger,category
+holiday_flag,0.016160810226446012,descriptive,calendar
+wk_discount_mean,0.01598008208917848,actionable,weekly
+wk_sales_sum,0.015055711459226146,response trigger,weekly
+activity_days_7d,0.012599469413371835,actionable,daily
+discount_lag1,0.011968869482171568,actionable,daily
+lost_sales_est_mean_7d,0.011702721033985342,response trigger,demand
+lost_sales_est,0.011218814216010032,response trigger,demand
+oos_hours_mean_7d,0.010702115822301728,response trigger,daily
+avg_humidity,0.010193473807558358,descriptive,daily
+discount_mean_7d,0.010132079179787224,actionable,daily
+oos_hours_lag2,0.010073393136544024,response trigger,daily
+demand_est,0.008763996555166053,response trigger,demand
+avg_wind_level,0.007265521813966202,descriptive,daily
+sales_mean_14d,0.006275804889755818,response trigger,daily
+sale_amount_lag7,0.006219453198829042,response trigger,daily
+wk_activity_days,0.0060255757196383646,actionable,weekly
+oos_after_sale,0.005894531243272817,response trigger,intraday
+oos_days_7d,0.005201967619899593,response trigger,daily
+sales_std_7d,0.004567079181709268,response trigger,daily
+first_category_id,0.004524896813440916,descriptive,category
+wk_oos_hours_sum,0.004363914174436328,response trigger,weekly
+in_stock_sales,0.004146733060225606,response trigger,daily
+wk_oos_hours_change,0.003435141736943385,response trigger,weekly
+wk_sales_std,0.003344622001513605,response trigger,weekly
+wk_any_oos_days,0.003193261322552655,response trigger,weekly
+cat_oos_rate,0.0027554825146961885,response trigger,category
+oos_at_close_mean_7d,0.0025800201935570486,response trigger,intraday
+oos_at_close_lag1,0.002563758104872591,response trigger,intraday
+store_oos_rate_mean_7d,0.002497649540957705,response trigger,entity
+longest_oos_run_max_7d,0.0023242100517839957,response trigger,daily
+first_oos_hour,0.0022826082957452124,response trigger,intraday
+cat_sales_mean_7d,0.0019888863723459345,response trigger,category
+wk_sales_cv,0.0019554187630175467,response trigger,weekly
+last_in_stock_hour,0.001883159365653134,response trigger,intraday
+longest_oos_run,0.0018530841506941551,response trigger,daily
+cat_oos_rate_lag1,0.0017702647329891658,response trigger,category
+wk_oos_days_change,0.0017396089894910005,response trigger,weekly
+cat_share_affected_mean_7d,0.0016354577406498191,response trigger,category
+oos_fraction,0.001579094124907433,response trigger,daily
+store_cat2_oos_rate_mean_7d,0.0006999918381176492,response trigger,entity
+oos_hours_lag7,0.0005628942416509096,response trigger,daily
+cat_oos_rate_mean_7d,0.00020793002135508122,response trigger,category
+oos_at_close,0.00015367701923003424,response trigger,intraday
+wk_oos_days,4.433577109137153e-05,response trigger,weekly
