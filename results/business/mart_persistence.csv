@@ -1,0 +1,5 @@
+label_period,current_severe,observations,next_severe,next_severe_rate
+development,False,2750370,749717.0,0.272587688201951
+development,True,1699630,946072.0,0.5566340909492066
+test,False,228226,59293.0,0.25979949698982585
+test,True,121774,63126.0,0.518386519289832

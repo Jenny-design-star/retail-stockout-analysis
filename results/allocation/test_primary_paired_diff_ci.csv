@@ -1,0 +1,7 @@
+policy,reference,metric,lo,hi,n_boot,n_valid
+per_store_top_n,global_matched,precision,-0.03319115597784924,-0.023006147099907052,1000,1000
+per_store_top_n,global_matched,recall,-0.012518474753218612,-0.0020875173659369384,1000,1000
+per_store_top_n,global_matched,tp_per_day,-224.5857142857146,-38.14285714285732,1000,1000
+one_per_store_then_global,global_matched,precision,-0.0005083039041974047,0.0008750195744297474,1000,1000
+one_per_store_then_global,global_matched,recall,-0.0002531429982985292,0.0003809167758956906,1000,1000
+one_per_store_then_global,global_matched,tp_per_day,-4.717857142857201,6.1428571428568945,1000,1000

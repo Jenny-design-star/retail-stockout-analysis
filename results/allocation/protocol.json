@@ -1,0 +1,11 @@
+{
+  "entry": "lightgbm_full",
+  "selection": "mean backtest PR-AUC",
+  "primary_k": 5,
+  "test_days": 7,
+  "n_boot": 1000,
+  "seed": 42,
+  "tie_break": "pandas stable identity hash",
+  "capacity": "hypothetical inspection scenarios, not measured staffing constraints",
+  "policy_choice": "report all preregistered scenarios; no test-set optimization"
+}
